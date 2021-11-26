@@ -2,53 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46739" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:39Z">
+  <suite name="Default suite" duration-ms="10613" started-at="2021-11-26T13:31:33Z" finished-at="2021-11-26T13:31:43Z">
     <groups>
     </groups>
-    <test name="chrome Test" duration-ms="10475" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:03Z">
-      <class name="org.cross.CrosBrow">
-        <test-method status="PASS" signature="testcase(java.lang.String)[pri:0, instance:org.cross.CrosBrow@163e4e87]" name="testcase" duration-ms="10431" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="10613" started-at="2021-11-26T13:31:33Z" finished-at="2021-11-26T13:31:43Z">
+      <class name="org.green.Greens">
+        <test-method status="PASS" signature="Testcase1()[pri:1, instance:org.green.Greens@71b1176b]" name="Testcase1" duration-ms="6773" started-at="2021-11-26T13:31:33Z" finished-at="2021-11-26T13:31:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-      </class> <!-- org.cross.CrosBrow -->
-    </test> <!-- chrome Test -->
-    <test name="ff Test" duration-ms="38372" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:31Z">
-      <class name="org.cross.CrosBrow">
-        <test-method status="PASS" signature="testcase(java.lang.String)[pri:0, instance:org.cross.CrosBrow@60d8c9b7]" name="testcase" duration-ms="38333" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:2, instance:org.green.Greens@71b1176b]" name="testcase2" duration-ms="168" started-at="2021-11-26T13:31:39Z" finished-at="2021-11-26T13:31:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-      </class> <!-- org.cross.CrosBrow -->
-    </test> <!-- ff Test -->
-    <test name="edge Test" duration-ms="46738" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:39Z">
-      <class name="org.cross.CrosBrow">
-        <test-method status="PASS" signature="testcase(java.lang.String)[pri:0, instance:org.cross.CrosBrow@4b14c583]" name="testcase" duration-ms="46700" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:3, instance:org.green.Greens@71b1176b]" name="testcase3" duration-ms="3626" started-at="2021-11-26T13:31:40Z" finished-at="2021-11-26T13:31:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-      </class> <!-- org.cross.CrosBrow -->
-    </test> <!-- edge Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testcase3 -->
+      </class> <!-- org.green.Greens -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
