@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="10613" started-at="2021-11-26T13:31:33Z" finished-at="2021-11-26T13:31:43Z">
     <groups>
     </groups>
@@ -20,6 +21,62 @@
           </reporter-output>
         </test-method> <!-- testcase3 -->
       </class> <!-- org.green.Greens -->
+=======
+  <suite name="Default suite" duration-ms="23643" started-at="2021-11-26T13:20:29Z" finished-at="2021-11-26T13:20:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23643" started-at="2021-11-26T13:20:29Z" finished-at="2021-11-26T13:20:53Z">
+      <class name="org.datprov.DataProvidr">
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:org.datprov.DataProvidr@647fd8ce]" name="testcase2" duration-ms="8941" started-at="2021-11-26T13:20:29Z" data-provider="testdata" finished-at="2021-11-26T13:20:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:org.datprov.DataProvidr@647fd8ce]" name="testcase2" duration-ms="6409" started-at="2021-11-26T13:20:38Z" data-provider="testdata" finished-at="2021-11-26T13:20:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:org.datprov.DataProvidr@647fd8ce]" name="testcase2" duration-ms="8242" started-at="2021-11-26T13:20:44Z" data-provider="testdata" finished-at="2021-11-26T13:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[python]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- org.datprov.DataProvidr -->
+>>>>>>> 489a5d81c06b61ea9e796940bd633e1f486de3b8
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
