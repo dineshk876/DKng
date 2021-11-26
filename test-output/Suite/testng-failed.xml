@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="3" name="edge Test(failed)" parallel="tests">
+    <parameter name="dinesh" value="edge"/>
+    <classes>
+      <class name="org.cross.CrosBrow">
+        <methods>
+          <include name="testcase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.cross.CrosBrow -->
+    </classes>
+  </test> <!-- edge Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46739" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:39Z">
+    <groups>
+    </groups>
+    <test name="chrome Test" duration-ms="10475" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:03Z">
+      <class name="org.cross.CrosBrow">
+        <test-method status="PASS" signature="testcase(java.lang.String)[pri:0, instance:org.cross.CrosBrow@163e4e87]" name="testcase" duration-ms="10431" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- org.cross.CrosBrow -->
+    </test> <!-- chrome Test -->
+    <test name="ff Test" duration-ms="38372" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:31Z">
+      <class name="org.cross.CrosBrow">
+        <test-method status="PASS" signature="testcase(java.lang.String)[pri:0, instance:org.cross.CrosBrow@60d8c9b7]" name="testcase" duration-ms="38333" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- org.cross.CrosBrow -->
+    </test> <!-- ff Test -->
+    <test name="edge Test" duration-ms="46738" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:39Z">
+      <class name="org.cross.CrosBrow">
+        <test-method status="PASS" signature="testcase(java.lang.String)[pri:0, instance:org.cross.CrosBrow@4b14c583]" name="testcase" duration-ms="46700" started-at="2021-11-26T12:12:52Z" finished-at="2021-11-26T12:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- org.cross.CrosBrow -->
+    </test> <!-- edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>
