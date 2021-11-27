@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	Testcase t=new Testcase();
 	t.testcase1();
 	t.testcase2();
-}
+	}
 private void testcase1() {
 		
 	System.out.println("java");
